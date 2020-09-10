@@ -1,0 +1,62 @@
+.FilterContainer {
+    background-color: #ffff;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 40px;
+}
+ .secondTitle {
+    display: flex-end;
+    text-align: center;
+    color: #0645ad;
+    margin: 10px;
+    font-weight: 500;
+}
+ .underScore {
+    border-bottom: 1px solid black;
+    width: 50%;
+    margin: 5px auto;
+}
+.FilterContainer button {
+    background-color: #b3f765;
+    margin: 5px;
+    padding: 5px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.FilterContainer button:hover {
+    background-color: #7ada0b;
+}
+ .yearContainer {
+    display: inline-flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+ .year {
+    width: 80px;
+}
+@media (min-width: 768px) {
+     .year {
+        width: 50px;
+   }
+}
+@media (min-width: 1100px) {
+     .year {
+        width: 80px;
+   }
+}
+.FilterContainer .successLaunch {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+.FilterContainer .successLaunch .bool {
+    width: 80px;
+}
