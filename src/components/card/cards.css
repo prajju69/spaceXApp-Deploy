@@ -1,46 +1,46 @@
 .mainCardContainer {
-    display: flex;
-    justify-content: center;
-    margin: 30px;
-    flex-wrap: wrap;
+  display: flex;
+  margin: 30px;
+  flex-wrap: wrap;
 }
-@media (min-width: 908px) {
-    .mainCardContainer {
-        flex-direction: row;
-        justify-content: flex-start;
-   }
-}
+
 .CardContainer {
-    padding: 10px;
-    margin: 10px;
-    background-color: #ffff;
-    width: 100%;
-    border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #ffff;
+  width: 100%;
+  border-radius: 5px;
 }
-@media (min-width: 768px) {
-    .CardContainer {
-        width: 30%;
-   }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .CardContainer {
+    width: 40%;
+  }
 }
+
+@media (min-width: 1024px) {
+  .CardContainer {
+    width: 22%;
+  }
+}
+
 .cardImage {
-    width: 100%;
-    background-color: rgba(224, 224, 224, 1);
-    padding: 20px;
+  width: 100%;
+  background-color: rgba(224, 224, 224, 1);
+  padding: 20px;
 }
 .cardTitle {
-    color: #0645ad;
-    word-wrap: break-word;
-    font-weight: bold;
-    margin-top: 10px;
+  color: #0645ad;
+  word-wrap: break-word;
+  font-weight: bold;
+  margin-top: 10px;
 }
 .secondText {
-    color: #0645ad;
+  color: #0645ad;
 }
 .noData {
-    display: flex;
-    margin: auto;
-    font-size: 25px;
-    font-weight: bold;
+  display: flex;
+  margin: auto;
+  font-size: 25px;
+  font-weight: bold;
 }
-
-

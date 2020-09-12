@@ -2,8 +2,7 @@
     background-color: #ffff;
     border-radius: 5px;
     padding: 10px;
-    margin: 10px;
-    margin-top: 40px;
+    margin: 40px auto 0 auto;
 }
  .secondTitle {
     display: flex-end;
@@ -29,16 +28,16 @@
     background-color: #7ada0b;
 }
  .yearContainer {
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
     align-content: center;
     flex-wrap: wrap;
-    width: 100%;
+    width: 80%;
     text-align: center;
     margin: auto;
 }
  .year {
-    width: 80px;
+    width: 40%;
 }
 @media (min-width: 768px) {
      .year {

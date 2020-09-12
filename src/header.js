@@ -9,7 +9,7 @@ const Header = () => {
         <link rel="icon" href="/favicon.ico" />
       </div>
 
-      <div className>
+      <div>
         <h1 className="title">SpaceX Launch Programs</h1>
       </div>
     </div>
