@@ -5,8 +5,8 @@
 }
 
 .filterContainer1 {
-  width: 75%;
- margin: 0 auto;
+  width: 80%;
+ margin: 33px auto;
 }
 
 .cardContainer1 {
@@ -21,7 +21,7 @@
   }
 
   .filterContainer1 {   
-    width: 25%;
+    width: 32%;
     margin: 0 0 0 5% auto;
   }
   .cardContainer1 {

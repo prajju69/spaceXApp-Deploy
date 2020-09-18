@@ -1,7 +1,7 @@
 import React from "react";
 import "./index.css";
 
-const Header = () => {
+const Header = ({}) => {
   return (
     <div>
       <div>

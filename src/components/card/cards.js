@@ -30,7 +30,11 @@ const cards = ({ data }) => {
               </div>
               <div>
                 <b>Successful Landing:</b>{" "}
-                <span className="secondText">Launch Landing</span>
+                <span className="secondText">
+                  {item.rocket.first_stage.cores[0].land_success
+                    ? "True"
+                    : "False"}
+                </span>
               </div>
             </div>
           );
